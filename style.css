@@ -746,3 +746,20 @@ footer {
     width: 100%;
   }
 }
+
+
+/* Updated pinned projects */
+.global .globe{position:absolute;left:44px;top:45px;width:145px;height:145px;border-radius:50%;border:2px solid var(--gold);box-shadow:inset 0 0 0 28px rgba(214,169,55,.04),0 0 28px rgba(214,169,55,.16)}
+.global .globe::before,.global .globe::after{content:"";position:absolute;inset:18px;border-radius:50%;border-left:1px solid rgba(214,169,55,.55);border-right:1px solid rgba(214,169,55,.55)}
+.global .globe::after{inset:48px 10px;border:0;border-top:1px solid rgba(214,169,55,.55);border-bottom:1px solid rgba(214,169,55,.55)}
+.metric{position:absolute;right:48px;width:160px;height:48px;display:grid;place-items:center;border-radius:12px;border:1px solid rgba(214,169,55,.42);background:rgba(5,5,5,.62);color:var(--gold-light);font-weight:800}
+.m1{top:42px}.m2{top:105px}.m3{top:168px}
+.worldcup .ball{position:absolute;left:56px;top:58px;font-size:4.8rem;filter:drop-shadow(0 0 16px rgba(214,169,55,.22))}
+.worldcup .cup{position:absolute;right:70px;top:52px;font-size:4.2rem;filter:drop-shadow(0 0 16px rgba(214,169,55,.22))}
+.worldcup .timeline{position:absolute;left:72px;right:72px;bottom:74px;height:3px;background:linear-gradient(90deg,var(--gold),rgba(255,49,49,.55),var(--gold));box-shadow:0 0 16px rgba(214,169,55,.28)}
+.worldcup .timeline::before,.worldcup .timeline::after{content:"";position:absolute;top:-7px;width:17px;height:17px;border-radius:50%;background:var(--gold-light)}
+.worldcup .timeline::before{left:0}.worldcup .timeline::after{right:0}
+.study-list{list-style:none;margin-top:18px;display:grid;gap:10px;color:#d4d4d4}
+.study-list li{position:relative;padding-left:22px}
+.study-list li::before{content:"";position:absolute;left:0;top:.75em;width:8px;height:8px;border-radius:50%;background:var(--gold-light);box-shadow:0 0 10px rgba(214,169,55,.35)}
+@media (min-width:1051px){.projects-grid{grid-template-columns:repeat(2,1fr)}.project-card:last-child{grid-column:1/-1}}
