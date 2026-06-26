@@ -762,4 +762,97 @@ footer {
 .study-list{list-style:none;margin-top:18px;display:grid;gap:10px;color:#d4d4d4}
 .study-list li{position:relative;padding-left:22px}
 .study-list li::before{content:"";position:absolute;left:0;top:.75em;width:8px;height:8px;border-radius:50%;background:var(--gold-light);box-shadow:0 0 10px rgba(214,169,55,.35)}
-@media (min-width:1051px){.projects-grid{grid-template-columns:repeat(2,1fr)}.project-card:last-child{grid-column:1/-1}}
+
+/* ZenFlow AI project illustration */
+.zenflow {
+  background:
+    radial-gradient(circle at 50% 48%, rgba(245, 214, 120, 0.18), transparent 28%),
+    radial-gradient(circle at 18% 18%, rgba(255, 49, 49, 0.10), transparent 26%),
+    linear-gradient(135deg, #071111, #171717 58%, #221d10);
+}
+
+.zen-orbit {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 168px;
+  height: 168px;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(214, 169, 55, 0.42);
+  border-radius: 50%;
+  box-shadow: 0 0 34px rgba(214, 169, 55, 0.14);
+}
+
+.zen-orbit::before,
+.zen-orbit::after {
+  content: "";
+  position: absolute;
+  inset: 28px;
+  border-radius: 50%;
+  border: 1px dashed rgba(214, 169, 55, 0.28);
+}
+
+.zen-orbit::after {
+  inset: -34px;
+  border-style: solid;
+  opacity: 0.45;
+}
+
+.zen-core {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 84px;
+  height: 84px;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: #111;
+  font-size: 1.6rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, var(--gold-light), #b88920);
+  box-shadow: 0 0 28px rgba(214, 169, 55, 0.32);
+  z-index: 2;
+}
+
+.zen-node {
+  position: absolute;
+  min-width: 92px;
+  height: 42px;
+  padding: 0 12px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  border: 1px solid rgba(214, 169, 55, 0.44);
+  background: rgba(5, 5, 5, 0.70);
+  color: var(--gold-light);
+  font-weight: 900;
+  font-size: 0.78rem;
+  z-index: 3;
+}
+
+.zn1 { left: 38px; top: 46px; }
+.zn2 { right: 34px; top: 56px; }
+.zn3 { left: 46px; bottom: 54px; }
+.zn4 { right: 54px; bottom: 48px; }
+
+.zen-line {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 50%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(214, 169, 55, 0.65), transparent);
+  transform: rotate(28deg);
+}
+
+.zl2 {
+  transform: rotate(-28deg);
+}
+
+@media (min-width:1051px){
+  .projects-grid{grid-template-columns:repeat(2,1fr)}
+  .project-card:last-child{grid-column:auto}
+}
+
