@@ -960,3 +960,108 @@ footer {
     min-height: auto;
   }
 }
+/* =========================================================
+   Ajuste fino final — cards de projetos + neon vermelho
+   Mantém a estrutura atual e altera apenas apresentação visual.
+   ========================================================= */
+
+/* Grade de projetos mais estável */
+.compact-projects-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  align-items: stretch;
+}
+
+/* Todos os cards com mesma altura visual */
+.compact-project-card {
+  min-height: 315px;
+  height: 100%;
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Ícone um pouco mais presente */
+.project-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 18px;
+}
+
+/* Título com altura mínima para alinhar melhor os textos */
+.compact-project-card h3 {
+  min-height: 52px;
+  font-size: 1.08rem;
+  line-height: 1.25;
+}
+
+/* Descrição com altura controlada para nivelar a grade */
+.compact-project-card p {
+  min-height: 76px;
+}
+
+/* Tags e link empurrados para a base do card */
+.compact-project-card .tags {
+  margin-top: auto;
+  padding-top: 18px;
+}
+
+.compact-project-card a {
+  margin-top: 18px;
+}
+
+/* Neon vermelho um pouco mais evidente nas áreas de destaque */
+.summary-card,
+.certification-band {
+  border-color: rgba(214, 169, 55, 0.30);
+  box-shadow:
+    0 0 0 1px rgba(255, 49, 49, 0.10),
+    0 0 34px rgba(255, 49, 49, 0.13),
+    0 20px 60px rgba(0, 0, 0, 0.34);
+}
+
+.summary-card::before,
+.certification-band::before {
+  width: 145px;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 49, 49, 0.55),
+    #ff3131,
+    #ff7a7a,
+    #ff3131,
+    transparent
+  );
+  box-shadow:
+    0 0 14px rgba(255, 49, 49, 0.95),
+    0 0 34px rgba(255, 49, 49, 0.62),
+    0 0 52px rgba(255, 49, 49, 0.28);
+}
+
+/* Responsividade preservada */
+@media (max-width: 1050px) {
+  .compact-projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .compact-project-card {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 760px) {
+  .compact-projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .compact-project-card {
+    min-height: auto;
+  }
+
+  .compact-project-card h3,
+  .compact-project-card p {
+    min-height: auto;
+  }
+}
