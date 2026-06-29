@@ -1,48 +1,65 @@
-# Portfólio Bruno Giacomelli
+# Bruno Giacomelli | Portfolio Profissional
 
-Portfólio profissional desenvolvido para apresentar minha trajetória, projetos, competências, certificações e currículo na área de Análise de Dados, Business Intelligence, Operações e Automação com IA.
+Portfolio online de Bruno Giacomelli, com foco em Dados, Business Intelligence, Automacao com IA e Logistica/Operacoes.
 
-O objetivo deste projeto é funcionar como uma vitrine profissional complementar ao GitHub e ao LinkedIn, reunindo em uma única página os principais trabalhos, links de contato e materiais relevantes para recrutadores, gestores e pessoas interessadas em conhecer meu perfil técnico e profissional.
+O projeto apresenta uma versao profissional e responsiva da minha trajetoria, conectando experiencia operacional em logistica aeroportuaria com projetos de dados, dashboards, indicadores e automacoes aplicadas a problemas reais de negocio.
 
-## Sobre o projeto
+## Objetivo
 
-Este portfólio foi construído com HTML e CSS, priorizando uma estrutura simples, leve, responsiva e fácil de manter.
+Publicar uma vitrine profissional para apoiar contatos via GitHub, LinkedIn, recrutadores, parceiros e oportunidades em Dados, BI, Automacao com IA e Operacoes.
 
-A identidade visual utiliza uma paleta baseada em preto, cinza e dourado, com detalhes visuais sutis para transmitir uma aparência profissional, moderna e alinhada ao posicionamento de Dados, BI e Tecnologia.
+O portfolio destaca:
 
-## Estrutura
+- experiencia pratica em logistica aeroportuaria e ambientes operacionais;
+- projetos de Business Intelligence, dashboards e analise de dados;
+- uso de Excel, Power Query, Power BI, SQL e ferramentas modernas de dados;
+- automacoes com IA, n8n, Supabase e agentes digitais;
+- formacao continua em dados, BI, automacao, IA e cloud.
 
-- `index.html` — página principal do portfólio
-- `certificados.html` — página complementar de certificações e formações
-- `style.css` — arquivo de estilos da interface
-- `assets/` — pasta com imagem profissional, currículo e arquivos de apoio
+## Tecnologias usadas
 
-## Conteúdo apresentado
-
-O portfólio reúne:
-
-- resumo profissional;
-- principais competências técnicas;
-- projetos em destaque;
-- estudos e formações atuais;
-- certificações;
-- currículo para download;
-- links para GitHub, LinkedIn e contato.
-
-## Tecnologias utilizadas
-
-- HTML
-- CSS
-- GitHub Pages
+- HTML5
+- CSS3
+- JavaScript
 - Design responsivo
-- Organização de arquivos estáticos
+- GitHub Pages
 
-## Objetivo profissional
+## Estrutura do projeto
 
-Este projeto faz parte da construção do meu posicionamento profissional em Análise de Dados, Business Intelligence e Automação com IA, conectando minha experiência em logística aeroportuária e operações com soluções baseadas em dados, indicadores, dashboards e processos digitais.
+```text
+.
+├── index.html
+├── certificados.html
+├── style.css
+├── script.js
+├── README.md
+└── assets/
+    ├── bruno-profile-2026.jpg
+    └── Bruno_Giacomelli_CV_Dados_BI_Automacao_IA.pdf
+```
 
-## Contato
+## Como visualizar localmente
 
-- GitHub: [github.com/brunogiacomelli1979-cyber](https://github.com/brunogiacomelli1979-cyber)
-- LinkedIn: [linkedin.com/in/bruno-giacomelli-9b049934a](https://www.linkedin.com/in/bruno-giacomelli-9b049934a/)
-- Portfólio: [brunogiacomelli1979-cyber.github.io](https://brunogiacomelli1979-cyber.github.io/)
+Abra o arquivo `index.html` diretamente no navegador ou rode um servidor local:
+
+```bash
+python -m http.server 8026
+```
+
+Depois acesse:
+
+```text
+http://127.0.0.1:8026
+```
+
+## GitHub Pages
+
+Quando publicado, o portfolio devera ficar disponivel em:
+
+```text
+https://brunogiacomelli1979-cyber.github.io/
+```
+
+## Observacao
+
+Os certificados completos nao foram incluidos como arquivos no repositorio final para manter o projeto leve, limpo e profissional. A pagina de formacao apresenta uma curadoria textual das trilhas mais relevantes.
