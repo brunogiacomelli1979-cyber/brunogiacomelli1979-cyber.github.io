@@ -342,11 +342,11 @@ a {
 .proof-strip strong {
   display: block;
   color: var(--text);
-  font-size: clamp(1.55rem, 3.2vw, 2.65rem);
+  font-size: clamp(1.45rem, 2.8vw, 2.45rem);
   font-weight: 800;
   letter-spacing: -0.08em;
   line-height: 1;
-  overflow-wrap: anywhere;
+  white-space: nowrap;
 }
 
 .proof-strip span {
