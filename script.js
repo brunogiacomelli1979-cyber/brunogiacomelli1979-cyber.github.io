@@ -1,12 +1,12 @@
 const terminalLines = [
-  { type: "cmd", text: "ask --problema 'gargalos operacionais'" },
+  { type: "cmd", text: "ask --problema 'fluxo de cargas'" },
   { type: "ok", text: "OK perguntas de negócio definidas" },
   { type: "cmd", text: "prepare --fontes planilhas sql logs" },
   { type: "ok", text: "OK dados validados e documentados" },
   { type: "cmd", text: "analyze --kpis sla produtividade qualidade" },
   { type: "ok", text: "OK indicadores prontos para decisão" },
-  { type: "cmd", text: "automate --n8n --human-checkpoint" },
-  { type: "ok", text: "OK fluxo com validação humana" }
+  { type: "cmd", text: "plan --operacao --kpis --validacao" },
+  { type: "ok", text: "OK análise como apoio ao planejamento" }
 ];
 
 const terminal = document.getElementById("terminal-content");

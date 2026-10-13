@@ -1,20 +1,28 @@
 # Bruno Giacomelli | Portfolio Profissional
 
-Portfolio online de Bruno Giacomelli, com foco em Dados, Business Intelligence, Automacao com IA e Logistica/Operacoes.
+Portfolio online de Bruno Giacomelli, com foco em logistica aeroportuaria, planejamento operacional, indicadores, BI e inteligencia analitica aplicada a operacao.
 
-O projeto apresenta uma versao profissional e responsiva da minha trajetoria, conectando experiencia operacional em logistica aeroportuaria com projetos de dados, dashboards, indicadores e automacoes aplicadas a problemas reais de negocio.
+Iniciei minha carreira em Viracopos em 2004 e tenho experiencia em logistica aeroportuaria, operacoes, atendimento ao cliente, indicadores e melhoria de processos. Retornei ao mercado corporativo e ao Aeroporto de Viracopos como Analista de Logistica III na area de logistica de cargas.
+
+Uso dados, BI e inteligencia analitica para fortalecer minha atuacao em logistica, planejamento e performance operacional. O portfolio conecta essa experiencia a projetos de KPIs, dashboards, analise de gargalos e apoio a decisoes baseadas em dados.
 
 ## Objetivo
 
-Publicar uma vitrine profissional para apoiar contatos via GitHub, LinkedIn, recrutadores, parceiros e oportunidades em Dados, BI, Automacao com IA e Operacoes.
+Apresentar minha trajetoria e projetos para apoiar contatos profissionais em logistica aeroportuaria, planejamento, indicadores e inteligencia operacional.
 
 O portfolio destaca:
 
-- experiencia pratica em logistica aeroportuaria e ambientes operacionais;
-- projetos de Business Intelligence, dashboards e analise de dados;
-- uso de Excel, Power Query, Power BI, SQL e ferramentas modernas de dados;
-- automacoes com IA, n8n, Supabase e agentes digitais;
-- formacao continua em dados, BI, automacao, IA e cloud.
+- experiencia pratica e atuacao atual em logistica aeroportuaria de cargas;
+- Airport Cargo Analytics como principal projeto estrategico, com foco em KPIs, SLA, gargalos e melhoria operacional;
+- Power BI, Excel e SQL nos estudos e projetos de analise e BI;
+- Glix, SQL Quest Platform, Power BI Global Sales, Protocolo ADA e World Cup Intelligence como projetos complementares;
+- ZenFlow AI como projeto experimental de automacao.
+
+## Formacao
+
+- Big Data e Inteligencia Analitica - Universidade Anhembi Morumbi - graduacao tecnologica em andamento;
+- Google Data Analytics - Coursera - em andamento;
+- CS50x - Harvard - concluido em 2026.
 
 ## Tecnologias usadas
 
@@ -62,4 +70,4 @@ https://brunogiacomelli1979-cyber.github.io/
 
 ## Observacao
 
-Os certificados completos nao foram incluidos como arquivos no repositorio final para manter o projeto leve, limpo e profissional. A pagina de formacao apresenta uma curadoria textual das trilhas mais relevantes.
+Os certificados completos nao foram incluidos como arquivos no repositorio final para manter o projeto leve. A pagina de formacao destaca a graduacao, o Google Data Analytics e o CS50x; as demais trilhas aparecem como estudos complementares a atuacao operacional.
