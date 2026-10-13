@@ -43,7 +43,7 @@ O portfolio destaca:
 ├── README.md
 └── assets/
     ├── bruno-profile-2026.jpg
-    └── Bruno_Giacomelli_CV_Dados_BI_Automacao_IA.pdf
+    └── Bruno_Giacomelli_CV_Logistica_Planejamento_Indicadores_BI.pdf
 ```
 
 ## Como visualizar localmente
